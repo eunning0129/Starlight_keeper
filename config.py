@@ -130,6 +130,7 @@ _set_channel_ids("HIGH", HIGH_CHANNELS)
 STATUS_CHANNEL_ID = int(os.getenv("STATUS_CHANNEL_ID") or STATUS_CHANNEL_ID)
 PLATINUM_ROLE_ID = int(os.getenv("PLATINUM_ROLE_ID") or 0)
 CANCEL_LOG_CHANNEL_ID = int(os.getenv("CANCEL_LOG_CHANNEL_ID") or CANCEL_LOG_CHANNEL_ID)
+GUIDE_CANCEL = "내전 모집 취소는 관리자에게 문의해 주세요."
 
 
 # 주간 승률 공개 스레드를 만들 텍스트 채널 ID (0이면 자동 게시 끔)
