@@ -130,17 +130,7 @@ _set_channel_ids("HIGH", HIGH_CHANNELS)
 STATUS_CHANNEL_ID = int(os.getenv("STATUS_CHANNEL_ID") or STATUS_CHANNEL_ID)
 PLATINUM_ROLE_ID = int(os.getenv("PLATINUM_ROLE_ID") or 0)
 CANCEL_LOG_CHANNEL_ID = int(os.getenv("CANCEL_LOG_CHANNEL_ID") or CANCEL_LOG_CHANNEL_ID)
-GUIDE_CANCEL = "내전 모집 취소는 관리자에게 문의해 주세요."
 
 
 # 주간 승률 공개 스레드를 만들 텍스트 채널 ID (0이면 자동 게시 끔)
 WEEKLY_WINRATE_CHANNEL_ID = int(os.getenv("WEEKLY_WINRATE_CHANNEL_ID") or 0)
-
-# ---------------------------------------------------------------------
-#  모집 임베드 안내 문구 (실제 서버 규칙에 맞게 수정 가능)
-# ---------------------------------------------------------------------
-GUIDE_RESERVE = "예약 내전입니다. 집합 예정 시각: {gather}"
-GUIDE_RATING_GAP = "참가 가능 레이팅 및 팀 밸런스 기준은 관리진 안내를 확인해 주세요."
-GUIDE_M700 = "모바시 내전 참가 관련 세부 기준은 관리진 안내를 확인해 주세요."
-GUIDE_8 = "모집 중 참가 및 취소 규칙을 확인해 주세요."
-GUIDE_LATE = "지각 또는 불참이 예상되면 모집자나 관리진에게 미리 알려주세요."
