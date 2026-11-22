@@ -73,3 +73,5 @@ python bot.py
 5. 로그에서 로그인 완료를 확인한 뒤 서버에서 모집 명령어를 실행해요. 역할 이름과 신청방 ID, 봇의 채널 보기·메시지 보내기·임베드·메시지 기록 읽기 권한을 확인하세요.
 
 [Railway Dockerfile 안내](https://docs.railway.com/builds/dockerfiles) · [Railway Volume 안내](https://docs.railway.com/volumes)
+
+Railway deployment refresh
