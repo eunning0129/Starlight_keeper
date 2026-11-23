@@ -1624,7 +1624,7 @@ class RankView(discord.ui.View):
             medal = ["🥇", "🥈", "🥉"][i-1] if i <= 3 else f"{i}위"
             lines.append(f"{medal} **{discord.utils.escape_markdown(m.display_name)}**\n"
                          f"└ 🟢 **{w}승 {l}패** ({w+l}전) · 승률 **{w/(w+l)*100:.1f}%**")
-        return discord.Embed(title="🏆 롤이터 내전 명예의 전당",
+        return discord.Embed(title="🏆 여 운 내전 랭킹",
              description=f"50판 이상은 승률 순, 50판 미만은 판수 순 · 전체 랭커 {len(rows)}명\n\n"
                          + ("\n\n".join(lines) if lines else "랭킹 기록이 없어요."), color=0xF1C40F)
 
